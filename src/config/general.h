@@ -152,10 +152,10 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define SYNC_CMD		/* Sync command */
 #define SHELL_CMD		/* Shell command */
 #define NSLOOKUP_CMD		/* DNS resolving command */
-//#define TIME_CMD		/* Time commands */
+#define TIME_CMD		/* Time commands */
 //#define DIGEST_CMD		/* Image crypto digest commands */
 //#define LOTEST_CMD		/* Loopback testing commands */
-//#define VLAN_CMD		/* VLAN commands */
+#define VLAN_CMD		/* VLAN commands */
 //#define PXE_CMD		/* PXE commands */
 //#define REBOOT_CMD		/* Reboot command */
 //#define POWEROFF_CMD		/* Power off command */
@@ -166,9 +166,9 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 //#define NEIGHBOUR_CMD		/* Neighbour management commands */
 //#define PING_CMD		/* Ping command */
 //#define CONSOLE_CMD		/* Console command */
-//#define IPSTAT_CMD		/* IP statistics commands */
+#define IPSTAT_CMD		/* IP statistics commands */
 //#define PROFSTAT_CMD		/* Profiling commands */
-//#define NTP_CMD		/* NTP commands */
+#define NTP_CMD		/* NTP commands */
 //#define CERT_CMD		/* Certificate management commands */
 //#define IMAGE_MEM_CMD		/* Read memory command */
 #define IMAGE_ARCHIVE_CMD	/* Archive image management commands */
